@@ -1,0 +1,185 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    background: #263544;
+}
+#logo{
+    width: 150px;
+}
+.nav{
+    text-align: left;
+}
+.header-serv
+{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    z-index: 99;
+    background: rgb(61, 98, 128, 0.5);
+}
+.header-serv .nav a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.nav a:hover
+{
+    border-bottom: 4px solid #fff;
+    transition: .5s;
+}
+.search i
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+.header-serv .search .search-link {
+    margin: 0 10px; /* Espaciado entre los iconos */
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5em; /* Tamaño de fuente solo para los iconos */
+}
+
+.header-serv .search .search-link i {
+    font-size: inherit; /* Hereda el tamaño de fuente de su contenedor */
+}
+.header-serv .search .search-link:hover {
+    color: #023e8a;
+}
+.header-serv .search .search-link {
+    margin: 10px 0 0 20px; /* Mover los iconos 10px hacia abajo */
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5em; /* Tamaño de fuente solo para los iconos */
+    position: relative;
+    top: 1px; /* Mover los iconos 10px hacia abajo */
+    left: -10px; /* Mover los iconos 30px hacia la izquierda */
+}
+
+#gestion{
+    height: 400px;
+
+}
+#img-gestion{
+    height: 100%;
+    width: 35%;
+    float: right;
+
+}
+.img-gestion{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.img-gestion img{
+    width: 400px;
+    height: 350px;
+    border: 3px solid #3990e7;
+}
+#cont-gestion{
+    height: 100%;
+    width: 65%;
+    float: left;
+    background: url(https://enetic.es/wp-content/uploads/2018/05/gestion-empresarial.jpg);
+}
+.cont-gestion{
+    padding: 40px;
+    margin-top: 80px;
+    text-align: justify;
+}
+#trabajo{
+    height: 600px;
+}
+#ctrabajo{
+    height: 100%;
+    width: 40%;
+    float: right;
+}
+.ctrabajo{
+    padding: 20px;
+    text-align: justify;
+    margin-top: 250px;
+}
+#video{
+    height: 100%;
+    width: 60%;
+    float: left;
+    background: #d84a4a;
+}
+.youtube{
+    text-align: center;
+    margin-top: 2px;
+    padding: 20px;
+    background: #263544;
+}
+#ubicacion{
+    height: 500px;
+    background: #263544;
+}
+#ubicanos{
+    width: 100%;
+    height: 25%;
+
+}
+.ubicanos{
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+    color: aliceblue;
+}
+#maps{
+    width: 100%;
+    height: 75%;
+    float: inline-end;
+    background: #4e8589;
+}
+.maps{
+    text-align: center;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+footer p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+footer p a:hover{
+    text-decoration: underline ;
+}
